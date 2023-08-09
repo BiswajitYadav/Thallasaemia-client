@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=REM:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@800&display=swap');
+
+@tailwind base;
+
+.hero-font {
+
+  font-family: 'Prompt', sans-serif;
+}
+
+.hero-bg {
+  background-image: url('./assets/Images/IMG_5.jpeg');
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
